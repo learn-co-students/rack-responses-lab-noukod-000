@@ -2,7 +2,7 @@ require_relative '../config/environment'
 require 'rack/test'
 
 def app()
-  Application.new
+  MyApp.new
 end
 RSpec.configure do |config|
 
